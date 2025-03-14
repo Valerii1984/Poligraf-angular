@@ -17,4 +17,5 @@ Thumbs.db
 # Logs
 *.log
 
+# Exclude Strapi project
 poligraf-strapi/
