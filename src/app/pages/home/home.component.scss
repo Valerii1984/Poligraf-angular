@@ -1,0 +1,44 @@
+.hero {
+    padding: 100px 20px 60px; /* Учитываем высоту фиксированной шапки */
+    text-align: center;
+    background-color: #fff;
+  
+    h1 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 18px;
+      color: #666;
+    }
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+  
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      text-align: center;
+  
+      h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 16px;
+        color: #666;
+      }
+    }
+  }
